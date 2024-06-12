@@ -9,3 +9,18 @@ aux_links:
 
 nav_enabled: true
 heading_anchors: true
+
+collections:
+  tests:
+    permalink: "/:collection/:path/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    tests:
+      name: Tests
+    tutorials:
+      name: Tutorials
