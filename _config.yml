@@ -5,4 +5,22 @@ theme: just-the-docs
 url: https://isvplaybook.github.io/isvplaybook/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/isvplaybook/isvpb3
+
+nav_enabled: true
+heading_anchors: true
+collections:
+  tests:
+    permalink: "/:collection/:path/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    tests:
+      name: Tests
+    tutorials:
+      name: Tutorials
+
